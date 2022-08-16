@@ -9,10 +9,32 @@ body {
 
 .container {
   background: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
   width: 100vw;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container p {
+  color: var(--purple);
+  margin-top: 22px;
+  margin-bottom: 33px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  padding: 4px;
+  border: 2px solid var(--purple);
+}
+
+
+.boxlinks {
+  color: var(--purple);
+  display: flex;
+  flex-direction: column;
 }
