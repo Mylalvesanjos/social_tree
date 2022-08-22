@@ -1,10 +1,13 @@
 :root {
-  --body-bg-color: #FAF7FD;
-  --purple: #BB99DD;
+  --body-bg-color: #18181b;
+  --neve: #FFFAFA;
 }
 
-body {
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .container {
@@ -19,7 +22,7 @@ body {
 }
 
 .container p {
-  color: var(--purple);
+  color: var(--neve);
   margin-top: 22px;
   margin-bottom: 33px;
 }
@@ -29,12 +32,46 @@ body {
   height: 200px;
   border-radius: 100%;
   padding: 4px;
-  border: 2px solid var(--purple);
+  border: 2px solid var(--neve);
 }
 
 
 .boxlinks {
-  color: var(--purple);
+  color: var(--neve);
   display: flex;
   flex-direction: column;
+}
+
+.boxlinks a {
+  width: 326px;
+  height: 49px;
+  border: 2px solid var(--neve);
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  color: var(--neve);
+  box-shadow: 10px 5px 5px #71717a;
+}
+
+.boxlinks a:hover {
+  text-decoration: underline;
+}
+
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 236px;
+  margin-top: 68px;
+}
+
+.icons a {
+  cursor: pointer;
+}
+
+.icons a i {
+  color: var(--neve);
 }
